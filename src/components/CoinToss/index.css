@@ -1,0 +1,91 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+}
+
+.coin-toss-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 16px;
+  width: 85%;
+  padding: 24px;
+}
+
+.heading {
+  font-family: 'roboto';
+  font-size: 24px;
+  font-weight: 500;
+  color: #a35200;
+}
+
+.des {
+  font-family: 'roboto';
+  font-size: 15px;
+  color: #334155;
+}
+
+.toss-image {
+  width: 120px;
+  height: 120px;
+}
+
+.button {
+  background-color: #f9d423;
+  color: #a35200;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 6px 12px;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.count {
+  font-family: 'roboto';
+  font-size: 12px;
+  color: #475569;
+  padding: 15px;
+}
+
+.counts-container {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .coin-toss-container {
+    max-width: 500px;
+    padding: 50px;
+  }
+
+  .heading {
+    font-size: 32px;
+  }
+
+  .des {
+    font-size: 18px;
+  }
+
+  .button {
+    margin-top: 30px;
+  }
+  .toss-image {
+    width: 180px;
+    height: 180px;
+  }
+  .count {
+    font-size: 15px;
+    pad: 20px;
+  }
+  .counts-container {
+    margin-top: 32px;
+  }
+}
